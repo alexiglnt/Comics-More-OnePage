@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Comics More</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="timeline.css">
+    <link rel="icon" href="ressources/images/logo.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <!-- Liens vers les fichiers CSS et JavaScript -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!----------------------------------------------------- CONTENU DE LA PAGE --------------------------------------------------------->
+
+    <section>
+        <div class='air air1'></div>
+        <div class='air air2'></div>
+        <div class='air air3'></div>
+        <div class='air air4'></div>
+    </section>
+
+    <div class="container">
+        <!-- <div class="background"></div> -->
+        <h1 class="gradient-text">Comics More</h1>
+        <h2 class="subtitle"> Site de e-commerce pour la lecture de comics </h2> <br> <br>
+        <hr>
+        <div>
+            <div>
+                <!-- Vidéo de démonstration -->
+                <video width="100%" controls>
+                    <source src="ressources/videos/ComicsMore.mp4" type="video/mp4">
+                </video>
+                <hr> <br> <br>
+
+                <!-- Description du projet -->
+                <h2 data-aos="fade-right" data-aos-duration="1000"> Description du projet </h2> <br>
+                <p data-aos="fade-up" data-aos-duration="500">
+                    <b>Comics More</b> est un site en ligne dédié à la lecture de comics, tels que <b>MARVEL</b> et
+                    <b>DC
+                        Comics</b>. Le site
+                    utilise un système de <b>crédits</b> pour l'achat de ces bandes dessinées, chaque comics étant
+                    évalué en
+                    fonction de son nombre de pages. Les utilisateurs reçoivent 10 crédits gratuits lors de leur
+                    inscription. Ils ont le choix entre deux modes de paiement pour acheter des crédits : par <b>carte
+                        bancaire</b> ou via un <b>compte PayPal</b>. Une fois les crédits achetés, ils peuvent les
+                    utiliser pout aquérir des comics qu'ils retrouveront dans leur <b>bibliothèque personnelle</b>. Ils
+                    peuvent effectuer des recherches de
+                    comics en
+                    utilisant la barre de recherche ou en explorant les différentes collections de personnages. Par
+                    exemple, la <b>collection</b> Spider-Man regroupe tous les comics liés à ce personnage, qui est
+                    publié sous
+                    la maison d'édition Marvel. Les utilisateurs peuvent également ajouter des comics à leurs
+                    <b>favoris</b>.
+                </p>
+                <p data-aos="fade-up" data-aos-duration="1000">Comics More utilise les Frameworks <b>Vue.js</b> et
+                    <b>Symfony</b> pour développer le site, stockant
+                    les
+                    informations dans une base de données. Les images des comics, quant à elles, sont stockées sur
+                    <b>Amazon Web Services (AWS)</b>. La base de données contient toutes les informations liées aux
+                    comics ainsi qu'aux utilisateurs. Le
+                    site est relié à la base de données via une <b>API</b> développer en PHP avec Symfony, qui fait le
+                    lien entre le back-end et le front-end.
+                </p>
+                <p data-aos="fade-up" data-aos-duration="1500">Pour l'<b>authentification</b> des utilisateurs, Comics
+                    More utilise le système
+                    <b>lexik-jwt-authentication</b>
+                    avec des <b>tokens</b> qui expirent après un certain temps. Les mots de passe des utilisateurs sont
+                    <b>cryptés</b>. Les administrateurs ont accès à des fonctionnalités spéciales, tels que la lecture
+                    gratuite
+                    de tous les comics et la possibilité de naviguer sur tout le site sans utiliser de crédits.
+                </p>
+
+                <br>
+                <br> <br>
+
+                <!-- Liste des technologies -->
+                <h2 data-aos="fade-right" data-aos-duration="1000">Technologies Utilisées</h2> <br>
+                <ul>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/vuejs.svg" width="30px"> &nbsp;
+                        Vue.js
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/symfony.svg" width="30px"> &nbsp;
+                        Symfony
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/Html.svg" width="30px"> &nbsp;
+                        HTML
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/Css.svg" width="30px"> &nbsp;
+                        CSS
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/Vite.svg" width="30px"> &nbsp;
+                        Vite
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/apiplatform.svg" width="30px"> &nbsp;
+                        API Platform
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/postman.svg" width="30px"> &nbsp;
+                        Postman
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/aws.svg" width="30px"> &nbsp;
+                        AWS
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000">
+                        <img src="ressources/icons/jwt.svg" width="30px"> &nbsp;
+                        lexik-JWT-authentication
+                    </li>
+                </ul>
+            </div> <br> <br> <br>
+        </div>
+
+
+        <h2 data-aos="fade-right" data-aos-duration="1000"> Présentation du site </h2>
+        <div class="history-tl-container" data-aos="fade-up" data-aos-duration="1000">
+            <ul class="tl">
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        La page d'accueil
+                    </div>
+                    <img src="ressources/images/home.png" alt="">
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        Un carrousel des derniers comics / BD ajoutés sur le site
+                    </div> <br>
+                    <img src="ressources/images/carroussel.png" alt="">
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        Les liste des comics, de différentes maisons d'éditions tel que MARVEL ou DC Comics
+                    </div> <br>
+                    <img src="ressources/images/comics.png" alt="">
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        Achat de crédits via PayPal ou carte bancaires pour ensuite acquérir des comics
+                    </div> <br>
+                    <img src="ressources/images/paypal.png" alt="">
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        Les collections de personnages. Tout les comics de l'univers de Batman se trouvent dans la
+                        collection Batman, qui elle meme se trouve dans la collection DC Comics
+                    </div> <br>
+                    <img src="ressources/images/dc.png" alt="">
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        L'accès au compte de l'utilisateur (ses informations, sa bibliothèques de comics, ses
+                        favoris, etc...)
+                    </div> <br>
+                    <img src="ressources/images/account.png" alt="">
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Nous retrouver -->
+        <h2 data-aos="fade-up" data-aos-duration="1000"> Nous retrouver </h2>
+        <div class="contact-grid">
+            <!-- Contact Item -->
+            <div class="contact-item" data-aos="fade-up" data-aos-duration="500">
+                <h3> Alexi GALLONET </h3>
+                <a href="https://alexigallonet.vercel.app/" target="_blank">
+                    <span class="material-symbols-outlined"
+                        style="font-size:25px; transform: translateX(-2px) translateY(4px);">
+                        language
+                    </span>
+                    Portfolio
+                </a>
+                <a href="https://www.linkedin.com/in/alexi-gallonet/" target="_blank">
+                    <i class="fa fa-linkedin" style="font-size: 20px;"></i> &nbsp;
+                    LinkedIn
+                </a>
+                <a href="https://github.com/alexiglnt" target="_blank">
+                    <i class="fa fa-github" style="font-size: 20px;"></i> &nbsp;
+                    GitHub
+                </a>
+            </div>
+            <!-- Contact Item -->
+            <div class="contact-item" data-aos="fade-up" data-aos-duration="1000">
+                <h3> Léo LLOPIS </h3>
+                <a href="https://alexigallonet.vercel.app/" target="_blank">
+                    <span class="material-symbols-outlined"
+                        style="font-size:25px; transform: translateX(-2px) translateY(4px);">
+                        language
+                    </span>
+                    Portfolio
+                </a>
+                <a href="https://www.linkedin.com/in/leollopis/" target="_blank">
+                    <i class="fa fa-linkedin" style="font-size: 20px;"></i> &nbsp;
+                    LinkedIn
+                </a>
+                <a href="https://github.com/leollopis" target="_blank">
+                    <i class="fa fa-github" style="font-size: 20px;"></i> &nbsp;
+                    GitHub
+                </a>
+            </div>
+            <!-- Contact Item -->
+            <div class="contact-item" data-aos="fade-up" data-aos-duration="1500">
+                <h3> Dorian FAURE </h3>
+                <a href="https://alexigallonet.vercel.app/" target="_blank">
+                    <span class="material-symbols-outlined"
+                        style="font-size:25px; transform: translateX(-2px) translateY(4px);">
+                        language
+                    </span>
+                    Portfolio
+                </a>
+                <a href="https://www.linkedin.com/in/faure-dorian/" target="_blank">
+                    <i class="fa fa-linkedin" style="font-size: 20px;"></i> &nbsp;
+                    LinkedIn
+                </a>
+                <a href="https://github.com/KiGalois" target="_blank">
+                    <i class="fa fa-github" style="font-size: 20px;"></i> &nbsp;
+                    GitHub
+                </a>
+            </div>
+            <!-- Contact Item -->
+            <div class="contact-item" data-aos="fade-up" data-aos-duration="2000">
+                <h3> IUT Puy-en-Velay </h3>
+                <a href="https://iut.uca.fr/formations/toutes-les-formations-par-site/site-de-le-puy-en-velay"
+                    target="_blank">
+                    <span class="material-symbols-outlined"
+                        style="font-size:25px; transform: translateX(-2px) translateY(4px);">
+                        language
+                    </span>
+                    Site officiel
+                </a>
+                <a href="https://www.linkedin.com/company/iut-imagerie-le-puy-en-velay/" target="_blank">
+                    <i class="fa fa-linkedin" style="font-size: 20px;"></i> &nbsp;
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-------------------------------------------------------- BAS DE PAGE ----------------------------------------------------------------->
+    <section id="footer">
+        <h2 id="footerH2" > Retrouvez le projet sur GitHub </h2>
+        <center> 
+            <a href="https://github.com/alexiglnt/comics-more" target="_blank" >
+                <i class="fa fa-github" style="font-size: 50px; color: white"></i> &nbsp; 
+            </a>
+        </center>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
