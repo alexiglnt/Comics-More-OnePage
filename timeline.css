@@ -47,10 +47,10 @@ body {
 
 }
 
-.history-tl-container ul.tl li:hover::before {
+/* .history-tl-container ul.tl li:hover::before {
     border-color: var(--yellow-color);
     transition: all 1000ms ease-in-out;
-}
+} */
 
 ul.tl li .item-title {}
 
