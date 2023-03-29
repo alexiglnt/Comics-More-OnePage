@@ -206,7 +206,7 @@ h4 {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     margin-top: 50px;
 }
@@ -219,18 +219,48 @@ h4 {
     text-align: center;
 }
 
-.contact-item:hover {
+.contact-item-iut {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    width: 355px;
+    height: 250px;
+    margin: 100px auto;
+}
+
+.contact-item:hover, .contact-item-iut:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.contact-item h3 {
+.contact-item h3, .contact-item-iut h3 {
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.contact-item a {
+.contact-item a, .contact-item-iut a {
     margin-top: 10px;
 }
+
+.contact-item img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+.contact-item-iut img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin: 10px auto;
+}
+
+.menu {
+    height: 70vh;
+}
+
 
 
 

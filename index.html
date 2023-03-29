@@ -41,14 +41,16 @@
 
     <div class="container">
         <!-- <div class="background"></div> -->
-        <h1 class="gradient-text">Comics More</h1>
-        <h2 class="subtitle"> Site de e-commerce pour la lecture de comics </h2> <br> <br>
+        <div class="menu">
+            <h1 class="gradient-text">Comics More</h1>
+            <h2 class="subtitle"> Site de e-commerce pour la lecture de comics </h2> <br> <br>
+        </div>
         <hr>
         <div>
             <div>
                 <!-- Vidéo de démonstration -->
-                <video width="100%" controls>
-                    <source src="ressources/videos/ComicsMore.mp4" type="video/mp4">
+                <video width="100%" controls autoplay loop preload="metadata">
+                    <source src="ressources/videos/Video_PTUT_sans_commentaires.mp4" type="video/mp4">
                 </video>
                 <hr> <br> <br>
 
@@ -183,11 +185,13 @@
 
 
         <!-- Nous retrouver -->
-        <h2 data-aos="fade-up" data-aos-duration="1000"> Nous retrouver </h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000"> L'équipe </h2>
         <div class="contact-grid">
             <!-- Contact Item -->
             <div class="contact-item" data-aos="fade-up" data-aos-duration="500">
                 <h3> Alexi GALLONET </h3>
+                <img src="https://media.licdn.com/dms/image/D4D03AQF_TYRiZZ_gXw/profile-displayphoto-shrink_400_400/0/1665833557775?e=1685577600&v=beta&t=o3BUh7to3t_8nxMxnwu0ZI6cXI14riNFZMN00Z6rbyI"
+                    width="50%">
                 <a href="https://alexigallonet.vercel.app/" target="_blank">
                     <span class="material-symbols-outlined"
                         style="font-size:25px; transform: translateX(-2px) translateY(4px);">
@@ -207,7 +211,9 @@
             <!-- Contact Item -->
             <div class="contact-item" data-aos="fade-up" data-aos-duration="1000">
                 <h3> Léo LLOPIS </h3>
-                <a href="https://alexigallonet.vercel.app/" target="_blank">
+                <img src="https://media.licdn.com/dms/image/D4E03AQHelpUGx75Lfg/profile-displayphoto-shrink_800_800/0/1675087193892?e=1685577600&v=beta&t=9RI7mAKXpqhDhTFyQ6VQKFFDH4rb7lIFBfuvUrPeZEs"
+                    width="50%">
+                <a href="https://portfolio-leollopis.vercel.app/" target="_blank">
                     <span class="material-symbols-outlined"
                         style="font-size:25px; transform: translateX(-2px) translateY(4px);">
                         language
@@ -226,13 +232,8 @@
             <!-- Contact Item -->
             <div class="contact-item" data-aos="fade-up" data-aos-duration="1500">
                 <h3> Dorian FAURE </h3>
-                <a href="https://alexigallonet.vercel.app/" target="_blank">
-                    <span class="material-symbols-outlined"
-                        style="font-size:25px; transform: translateX(-2px) translateY(4px);">
-                        language
-                    </span>
-                    Portfolio
-                </a>
+                <img src="https://media.licdn.com/dms/image/D4E35AQH6I5ApvaEp4A/profile-framedphoto-shrink_400_400/0/1664203861157?e=1680688800&v=beta&t=LMmBMx8GqhSGoIxQ1j3ejw3ipQSdxeCui8sjHaQ2vNY"
+                    width="50%">
                 <a href="https://www.linkedin.com/in/faure-dorian/" target="_blank">
                     <i class="fa fa-linkedin" style="font-size: 20px;"></i> &nbsp;
                     LinkedIn
@@ -242,22 +243,23 @@
                     GitHub
                 </a>
             </div>
-            <!-- Contact Item -->
-            <div class="contact-item" data-aos="fade-up" data-aos-duration="2000">
-                <h3> IUT Puy-en-Velay </h3>
-                <a href="https://iut.uca.fr/formations/toutes-les-formations-par-site/site-de-le-puy-en-velay"
-                    target="_blank">
-                    <span class="material-symbols-outlined"
-                        style="font-size:25px; transform: translateX(-2px) translateY(4px);">
-                        language
-                    </span>
-                    Site officiel
-                </a>
-                <a href="https://www.linkedin.com/company/iut-imagerie-le-puy-en-velay/" target="_blank">
-                    <i class="fa fa-linkedin" style="font-size: 20px;"></i> &nbsp;
-                    LinkedIn
-                </a>
-            </div>
+        </div><br> <br> <br>
+
+        <!-- Contact Item IUT -->
+        <div class="contact-item-iut" data-aos="fade-up" data-aos-duration="2000">
+            <img src="https://iut.uca.fr/uas/IUT63/LOGO_PIED/iut_carre.png">
+            <a href="https://iut.uca.fr/formations/toutes-les-formations-par-site/site-de-le-puy-en-velay"
+                target="_blank">
+                <span class="material-symbols-outlined"
+                    style="font-size:25px; transform: translateX(-2px) translateY(4px);">
+                    language
+                </span>
+                Site officiel
+            </a>
+            <a href="https://www.linkedin.com/company/iut-imagerie-le-puy-en-velay/" target="_blank">
+                <i class="fa fa-linkedin" style="font-size: 20px;"></i> &nbsp;
+                LinkedIn
+            </a>
         </div>
     </div>
 
@@ -266,10 +268,10 @@
 
     <!-------------------------------------------------------- BAS DE PAGE ----------------------------------------------------------------->
     <section id="footer">
-        <h2 id="footerH2" > Retrouvez le projet sur GitHub </h2>
-        <center> 
-            <a href="https://github.com/alexiglnt/comics-more" target="_blank" >
-                <i class="fa fa-github" style="font-size: 50px; color: white"></i> &nbsp; 
+        <h2 id="footerH2"> Retrouvez le projet sur GitHub </h2>
+        <center>
+            <a href="https://github.com/alexiglnt/comics-more" target="_blank">
+                <i class="fa fa-github" style="font-size: 50px; color: white"></i> &nbsp;
             </a>
         </center>
     </section>
